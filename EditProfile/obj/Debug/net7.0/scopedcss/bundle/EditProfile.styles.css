@@ -1,0 +1,296 @@
+/* _content/EditProfile/Views/Home/Index.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+*[b-uq2lis1qgv] {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+}
+
+body[b-uq2lis1qgv] {
+    align-items: center;
+    justify-content: center;
+}
+
+header[b-uq2lis1qgv] {
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: #FCD284;
+    display: flex;
+    align-items: center;
+}
+
+div img[b-uq2lis1qgv] {
+    width: 177px;
+    height: 100px;
+}
+
+header div[b-uq2lis1qgv] {
+    display: flex;
+    align-items: center;
+}
+
+header .col-9[b-uq2lis1qgv] {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+
+    header .col-9 a:hover[b-uq2lis1qgv], a:active[b-uq2lis1qgv] {
+        color: #F8F3E3;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    header .col-9 a:link[b-uq2lis1qgv], a:visited[b-uq2lis1qgv] {
+        color: #242121;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+.row[b-uq2lis1qgv] {
+    width: 100%;
+}
+
+#Header[b-uq2lis1qgv] {
+    position: relative;
+    width: 100%;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+    background: #FCD284;
+}
+
+
+.page[b-uq2lis1qgv] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 600px;
+}
+
+.left[b-uq2lis1qgv] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 600px;
+    background-color: #2c2727;
+}
+.TXT1[b-uq2lis1qgv] {
+    width: 100%;
+    font-size: 55px;
+    text-align: center;
+    font-weight: bold;
+    color: #F8F3E3;
+}
+.left .container[b-uq2lis1qgv] {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+}
+.tab[b-uq2lis1qgv] {
+  float:left;
+  background-color: #2c2727;
+  width: 100%;
+}
+.tab button[b-uq2lis1qgv] {
+  display: block;
+  background-color: inherit;
+  padding: 22px 16px;
+  width: 100%;
+  font-weight:700;
+  font-size: 26px;
+  color: #F8F3E3;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.tab button:hover[b-uq2lis1qgv] ,button:active[b-uq2lis1qgv]{
+ background: #FCD284;
+ color: #2c2727;
+ font-weight: 600;
+}
+.right[b-uq2lis1qgv] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+    padding-right:10%;
+}
+.right .container[b-uq2lis1qgv] {
+    width: 100%;
+    height: 70%;
+    padding: 5px 100px 21px 100px;
+}
+
+.right .TXT1[b-uq2lis1qgv] {
+    width: 100%;
+    font-size: 55px;
+    padding:  0px 100px 0px 100px;
+    text-align: start;
+    font-weight: bold;
+    color:  #2c2727;
+}
+.right .TXT1 p[b-uq2lis1qgv]{
+    border-block-end-width: 1px;
+    border-block-end-style: solid;
+    border-block-end-color:  #2c2727;
+}
+#update-profile-button[b-uq2lis1qgv]{
+    border: none;
+    outline: none;
+    background: #F8C25C;
+    color: #2c2727;
+    font-weight: bold;
+    border-radius: 35px;
+}
+#firstNameandLast[b-uq2lis1qgv]{
+  gap:10px;
+}
+#firstName[b-uq2lis1qgv] ,#LastName[b-uq2lis1qgv]{
+  width: 100%;
+}
+[b-uq2lis1qgv]::-webkit-scrollbar {
+    padding: 20px 20px 20px 20px;
+    width: 5px;
+    height: 1px;
+}
+
+[b-uq2lis1qgv]::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #BBBBBB;
+}
+
+    [b-uq2lis1qgv]::-webkit-scrollbar-thumb:hover {
+        background: #8A8A8A;
+    }
+
+@media (max-width: 980px) {
+
+    .page[b-uq2lis1qgv] {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 1100px;
+    }
+
+    .left[b-uq2lis1qgv] {
+        width: 100%;
+        height: 500px;
+        padding: 15px 15px 15px 15px;
+        margin-bottom: 0;
+    }
+
+    .right[b-uq2lis1qgv] {
+        margin-top: 0;
+        width: 100%;
+        height: 600px;
+    }
+.topic[b-uq2lis1qgv] {
+        width: 100%;
+    }
+
+    .container[b-uq2lis1qgv] {
+        padding: 22.5px 10px 22.5px 10px;
+    }
+
+    .box[b-uq2lis1qgv] {
+        background-color: #fcd284;
+        height: 200px;
+        border-radius: 35px;
+        text-align: center;
+        justify-content: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+/* _content/EditProfile/Views/Shared/_Layout.cshtml.rz.scp.css */
+html[b-ma9u3bv6w0], body[b-ma9u3bv6w0] {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-ma9u3bv6w0] {
+    flex-grow: 1;
+    height: fit-content;
+}
+
+footer[b-ma9u3bv6w0] {
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    right: 0;
+    bottom: 0px;
+    background: #242121;
+    align-items: center;
+    justify-content: center;
+}
+
+div img[b-ma9u3bv6w0] {
+    width: 40px;
+    height: 40px;
+}
+
+footer div[b-ma9u3bv6w0] {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.footerBox[b-ma9u3bv6w0] {
+    width: 100%;
+    padding: 30px;
+}
+
+footer .column1[b-ma9u3bv6w0] {
+    width: 25%;
+    gap: 15px;
+    flex-shrink: 0;
+    float: left;
+}
+
+footer .column2[b-ma9u3bv6w0] {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #f8f3e3;
+    width: 50%;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+footer .column3[b-ma9u3bv6w0] {
+    text-align: center;
+    color: #f8f3e3;
+    float: right;
+    justify-content: space-between;
+    width: 25%;
+    font-size: 12px;
+}
+
+@media (max-width: 980px) {
+
+    .column1[b-ma9u3bv6w0] {
+        display: none;
+    }
+
+    .column2[b-ma9u3bv6w0] {
+        flex: 100%;
+        padding-top: 0px;
+    }
+
+    .column3[b-ma9u3bv6w0] {
+        display: none;
+    }
+}
